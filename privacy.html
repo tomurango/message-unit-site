@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Message Unit プライバシーポリシー</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>プライバシーポリシー</h1>
+    <p class="meta">Message Unit ／ 制定日: 2026年9月29日</p>
+
+    <p>Message Unit（以下「本アプリ」）は、開発者本人が自分の Google アカウントで使う個人用の macOS アプリです。本アプリが Google ユーザーデータをどう扱うかを以下に定めます。</p>
+
+    <h2>1. 取得するデータ</h2>
+    <p>利用者が Google アカウントでログインして許可した場合に限り、Gmail API を通じて次のデータを取得します。</p>
+    <ul>
+      <li>利用者のメールアドレス</li>
+      <li>受信トレイ・送信済みメールの送信者、宛先、件名、日時、抜粋、本文</li>
+    </ul>
+    <p>要求する権限は <code>gmail.readonly</code>（メールの読み取り）と <code>gmail.send</code>（メールの送信）です。</p>
+
+    <h2>2. 利用目的</h2>
+    <ul>
+      <li>やり取りを相手ごとにまとめて表示し、返信を待っている相手を知らせるため</li>
+      <li>利用者が画面で内容を確認したうえで指示したメールを送信するため</li>
+    </ul>
+    <p>上記以外の目的には使いません。広告、利用者の行動分析、機械学習モデルの学習には使いません。</p>
+
+    <h2>3. 保存場所</h2>
+    <p>取得したデータとログイン情報（OAuth トークン）は、利用者の Mac の中だけに保存します。開発者のサーバーやクラウドには送信・保存しません。ログイン情報は、利用者本人しか読み書きできない権限のファイルに保存します。</p>
+
+    <h2>4. 第三者への提供</h2>
+    <p>Google ユーザーデータを第三者に提供、販売、共有することはありません。</p>
+
+    <h2>5. データの削除</h2>
+    <ul>
+      <li>アプリの設定画面で「ログアウト」すると、ログイン情報を削除します。</li>
+      <li>取り込んだメッセージは、利用者の Mac のデータフォルダを削除すれば消えます。</li>
+      <li>Google アカウントの <a href="https://myaccount.google.com/permissions">サードパーティのアクセス設定</a> から、本アプリの権限をいつでも取り消せます。</li>
+    </ul>
+
+    <h2>6. Google API サービスのユーザーデータに関するポリシーの遵守</h2>
+    <p>本アプリによる Google API から受け取った情報の使用および他のアプリへの転送は、限定使用の要件を含め、<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API サービスのユーザーデータに関するポリシー</a>に従います。</p>
+
+    <h2>7. 変更</h2>
+    <p>本ポリシーを変更する場合は、このページを更新します。</p>
+
+    <footer>
+      お問い合わせ: <a href="https://github.com/tomurango">GitHub (tomurango)</a> ／ <a href="index.html">Message Unit について</a>
+    </footer>
+  </main>
+</body>
+</html>
